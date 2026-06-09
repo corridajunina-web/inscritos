@@ -1,0 +1,22 @@
+SITE DE CONSULTA DE INSCRIÇÃO - CORRIDA JUNINA DE XINGUARA 2026
+
+Arquivos para subir no GitHub SEM pasta assets:
+
+1. index.html
+2. style.css
+3. script.js
+4. data.js
+5. logo.png
+6. banner.png
+
+Como subir:
+- Extraia o ZIP.
+- No GitHub, clique em Add file > Upload files.
+- Arraste TODOS os arquivos juntos, soltos, sem pasta.
+- Clique em Commit changes.
+
+Importante:
+- O site está configurado para buscar logo.png e banner.png na raiz do repositório.
+- Não usa pasta assets.
+- A pesquisa é por nome.
+- A lista geral não aparece; só aparecem os resultados pesquisados.

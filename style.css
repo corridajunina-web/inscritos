@@ -202,3 +202,47 @@ footer{
   button{width:100%}
   .card-head h2,.notice h3{font-size:23px}
 }
+.resultado-card {
+  background: rgba(43, 13, 8, 0.95);
+  border: 1px solid rgba(255, 190, 40, 0.35);
+  border-radius: 18px;
+  padding: 24px;
+  margin-top: 20px;
+  box-shadow: 0 12px 35px rgba(0,0,0,.35);
+}
+
+.resultado-card h3 {
+  font-size: 26px;
+  margin-bottom: 18px;
+  color: #fff;
+}
+
+.linha-info {
+  border-top: 1px solid rgba(255,255,255,.12);
+  padding: 12px 0;
+}
+
+.linha-info span {
+  display: block;
+  font-size: 13px;
+  color: #ffc928;
+  font-weight: 900;
+}
+
+.linha-info strong {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 4px;
+}
+
+.botao-whatsapp {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #ffc928, #ff7a1a);
+  color: #170606;
+  font-weight: 900;
+  text-decoration: none;
+}

@@ -43,10 +43,13 @@ function consultarInscricao() {
 
   if (encontrados.length === 0) {
     resultado.innerHTML = `
-      <div class="card-resultado erro">
+      <div class="resultado-card">
         <h3>Inscrição não encontrada</h3>
-        <p>Confira se digitou o nome corretamente.</p>
-        <a class="btn-whatsapp" target="_blank"
+        <div class="linha-info">
+          <span>ATENÇÃO</span>
+          <strong>Confira se digitou o nome corretamente.</strong>
+        </div>
+        <a class="botao-whatsapp" target="_blank"
           href="https://wa.me/5594942486901?text=Olá!%20Não%20encontrei%20minha%20inscrição%20na%20Corrida%20Junina%20de%20Xinguara%202026.">
           FALAR COM A ORGANIZAÇÃO
         </a>
@@ -62,16 +65,40 @@ function consultarInscricao() {
       );
 
       return `
-        <div class="card-resultado">
+        <div class="resultado-card">
           <h3>${a.nome}</h3>
-          <p><strong>Status:</strong> ${a.status || "INSCRIÇÃO CONFIRMADA"}</p>
-          <p><strong>Categoria:</strong> ${a.categoria || "-"}</p>
-          <p><strong>Sexo:</strong> ${a.sexo || "-"}</p>
-          <p><strong>Data de nascimento:</strong> ${a.dataNascimento || "-"}</p>
-          <p><strong>Tamanho da camisa:</strong> ${a.camisa || "-"}</p>
-          <p><strong>Equipe / Assessoria / Academia:</strong> ${a.equipe || "-"}</p>
 
-          <a class="btn-whatsapp" target="_blank"
+          <div class="linha-info">
+            <span>STATUS</span>
+            <strong>${a.status || "INSCRIÇÃO CONFIRMADA"}</strong>
+          </div>
+
+          <div class="linha-info">
+            <span>CATEGORIA</span>
+            <strong>${a.categoria || "-"}</strong>
+          </div>
+
+          <div class="linha-info">
+            <span>SEXO</span>
+            <strong>${a.sexo || "-"}</strong>
+          </div>
+
+          <div class="linha-info">
+            <span>DATA DE NASCIMENTO</span>
+            <strong>${a.dataNascimento || "-"}</strong>
+          </div>
+
+          <div class="linha-info">
+            <span>TAMANHO DA CAMISA</span>
+            <strong>${a.camisa || "-"}</strong>
+          </div>
+
+          <div class="linha-info">
+            <span>EQUIPE / ASSESSORIA / ACADEMIA</span>
+            <strong>${a.equipe || "Não informado"}</strong>
+          </div>
+
+          <a class="botao-whatsapp" target="_blank"
             href="https://wa.me/5594942486901?text=${mensagem}">
             DADOS COM DIVERGÊNCIA? FALAR NO WHATSAPP
           </a>

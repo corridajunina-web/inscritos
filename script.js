@@ -1,67 +1,67 @@
-const input = document.getElementById("busca");
-const btn = document.getElementById("btnBuscar");
-const statusEl = document.getElementById("status");
-const resultadosEl = document.getElementById("resultados");
+let atletas = [];
 
-const WHATSAPP = "559492486901";
-
-function normalizar(txt){
-  return String(txt || "")
+function normalizarTexto(texto) {
+  return (texto || "")
+    .toString()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
-    .replace(/[^a-z0-9 ]+/g, " ")
-    .replace(/\s+/g, " ")
     .trim();
 }
 
-function criarWhatsApp(atleta){
-  const msg = `Olá, sou ${atleta.nome}. Encontrei divergência na minha inscrição da Corrida Junina de Xinguara 2026. Meus dados aparecem assim: Categoria: ${atleta.categoria}; Sexo: ${atleta.sexo}; Camisa: ${atleta.camisa}; Equipe: ${atleta.equipe}. Preciso corrigir.`;
-  return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
+async function carregarAtletas() {
+  const resposta = await fetch("atletas.json?v=" + Date.now());
+  atletas = await resposta.json();
 }
 
-function card(atleta){
-  return `
-    <article class="athlete-card">
-      <h3>${atleta.nome}</h3>
-      <div class="info-grid">
-        <div class="info"><span class="label">Categoria</span><span class="value">${atleta.categoria || atleta.grupo || "Não informado"}</span></div>
-        <div class="info"><span class="label">Sexo</span><span class="value">${atleta.sexo || "Não informado"}</span></div>
-        <div class="info"><span class="label">Data de nascimento</span><span class="value">${atleta.nascimento || "Não informado"}</span></div>
-        <div class="info"><span class="label">Tamanho da camisa</span><span class="value">${atleta.camisa || "Não informado"}</span></div>
-        <div class="info"><span class="label">Representa equipe/assessoria?</span><span class="value">${atleta.representaEquipe || "Não informado"}</span></div>
-        <div class="info"><span class="label">Equipe / Assessoria / Academia</span><span class="value">${atleta.equipe || "Não informado"}</span></div>
+function consultarInscricao() {
+  const campo = document.getElementById("buscaNome") || document.getElementById("nome") || document.querySelector("input");
+  const resultado = document.getElementById("resultado") || document.getElementById("resultados");
+  const termo = normalizarTexto(campo.value);
+
+  if (!termo || termo.length < 3) {
+    resultado.innerHTML = `<div class="aviso">Digite pelo menos 3 letras do nome.</div>`;
+    return;
+  }
+
+  const encontrados = atletas.filter(a => normalizarTexto(a.nome).includes(termo));
+
+  if (encontrados.length === 0) {
+    resultado.innerHTML = `
+      <div class="card-resultado erro">
+        <h3>Inscrição não encontrada</h3>
+        <p>Confira se digitou o nome corretamente. Se ainda assim não encontrar, fale com a organização.</p>
+        <a class="btn-whatsapp" target="_blank" href="https://wa.me/5594942486901?text=Olá!%20Não%20encontrei%20minha%20inscrição%20na%20consulta%20da%20Corrida%20Junina%20de%20Xinguara%202026.">FALAR COM A ORGANIZAÇÃO</a>
       </div>
-      <a class="whatsapp-card" href="${criarWhatsApp(atleta)}" target="_blank" rel="noopener">Corrigir pelo WhatsApp</a>
-    </article>
-  `;
-}
-
-function buscar(){
-  const termo = normalizar(input.value);
-  resultadosEl.innerHTML = "";
-
-  if(termo.length < 3){
-    statusEl.textContent = "Digite pelo menos 3 letras do nome do atleta.";
+    `;
     return;
   }
 
-  const encontrados = ATLETAS.filter(a => a.busca.includes(termo)).slice(0, 12);
-
-  if(encontrados.length === 0){
-    statusEl.textContent = "Nenhuma inscrição encontrada com esse nome.";
-    resultadosEl.innerHTML = `<div class="empty">Confira se digitou corretamente. Em caso de dúvida, fale com a organização pelo WhatsApp.</div>`;
-    return;
-  }
-
-  statusEl.textContent = encontrados.length === 1
-    ? "1 inscrição encontrada."
-    : `${encontrados.length} inscrições encontradas. Confira qual é a sua.`;
-
-  resultadosEl.innerHTML = encontrados.map(card).join("");
+  resultado.innerHTML = encontrados.map(a => {
+    const msg = encodeURIComponent(`Olá! Consultei minha inscrição na Corrida Junina de Xinguara 2026 e encontrei uma divergência nos meus dados.\n\nNome: ${a.nome}\nCategoria: ${a.categoria}\nEquipe: ${a.equipe || "-"}\nCamisa: ${a.camisa || "-"}`);
+    return `
+      <div class="card-resultado">
+        <h3>${a.nome}</h3>
+        <p><strong>Status:</strong> ${a.status || "INSCRIÇÃO CONFIRMADA"}</p>
+        <p><strong>Categoria:</strong> ${a.categoria || "-"}</p>
+        <p><strong>Sexo:</strong> ${a.sexo || "-"}</p>
+        <p><strong>Data de nascimento:</strong> ${a.dataNascimento || "-"}</p>
+        <p><strong>Tamanho da camisa:</strong> ${a.camisa || "-"}</p>
+        <p><strong>Equipe / Assessoria / Academia:</strong> ${a.equipe || "-"}</p>
+        <a class="btn-whatsapp" target="_blank" href="https://wa.me/5594942486901?text=${msg}">DADOS COM DIVERGÊNCIA? FALAR NO WHATSAPP</a>
+      </div>
+    `;
+  }).join("");
 }
 
-btn.addEventListener("click", buscar);
-input.addEventListener("keyup", (e) => {
-  if(e.key === "Enter") buscar();
+document.addEventListener("DOMContentLoaded", async () => {
+  await carregarAtletas();
+  const btn = document.getElementById("btnConsultar") || document.querySelector("button");
+  const input = document.getElementById("buscaNome") || document.getElementById("nome") || document.querySelector("input");
+  if (btn) btn.addEventListener("click", consultarInscricao);
+  if (input) {
+    input.addEventListener("keyup", (e) => {
+      if (e.key === "Enter") consultarInscricao();
+    });
+  }
 });

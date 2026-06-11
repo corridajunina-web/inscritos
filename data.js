@@ -1,3258 +1,2864 @@
-const ATLETAS = [
+[
   {
-    "nome": "Adriana Teixeira Dos Santos",
+    "nome": "Adriana Lima Farias",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "27/06/2026",
-    "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Dale Runners",
-    "busca": "adriana teixeira dos santos"
+    "dataNascimento": "29/05/1983",
+    "camisa": "P",
+    "equipe": "Adriana Lima Farias",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Adriely Barbosa Da Silva",
+    "nome": "Adriana Teixeira dos Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "30/09/1997",
+    "dataNascimento": "27/06/2026",
+    "camisa": "PP",
+    "equipe": "DALE RUNNERS",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Adriely Barbosa da Silva",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "30/09/1997",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogorunners",
-    "busca": "adriely barbosa da silva"
+    "equipe": "GogoRunners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Agricyanna De Moura Castro Reges",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "23/12/1984",
+    "dataNascimento": "23/12/1984",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "agricyanna de moura castro reges"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Aldenice Lima De Sousa",
+    "nome": "Aldenice Lima de Sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "08/09/1991",
+    "dataNascimento": "08/09/1991",
     "camisa": "PP",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runners",
-    "busca": "aldenice lima de sousa"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Aldirene Silva Dos Santos",
+    "nome": "Aldirene Silva dos Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "13/09/1987",
+    "dataNascimento": "13/09/1987",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "aldirene silva dos santos"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Aleia Alves De Carvalho",
+    "nome": "Aleia Alves de Carvalho",
     "categoria": "Master B - 5KM - 50 anos acima",
-    "grupo": "Master 50+",
     "sexo": "Feminino",
-    "nascimento": "24/11/1957",
+    "dataNascimento": "24/11/1957",
     "camisa": "GG",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "aleia alves de carvalho"
+    "equipe": "Gogo runners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Alex Cristian Oeiras Barata",
-    "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
-    "sexo": "Masculino",
-    "nascimento": "11/07/1981",
-    "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "alex cristian oeiras barata"
-  },
-  {
-    "nome": "Alexandra Fernandes De Assis",
-    "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
-    "sexo": "Feminino",
-    "nascimento": "18/11/1983",
-    "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runneres",
-    "busca": "alexandra fernandes de assis"
-  },
-  {
-    "nome": "Alexandre Da Silva Ferreira",
-    "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
-    "sexo": "Masculino",
-    "nascimento": "06/05/2017",
-    "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Gogorunnrs",
-    "busca": "alexandre da silva ferreira"
-  },
-  {
-    "nome": "Alexssandra De Sousa Martins",
+    "nome": "Alessandra Tamires de Sousa Andrade",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "23/10/2000",
+    "dataNascimento": "24/06/1994",
+    "camisa": "P",
+    "equipe": "Alessandra Tamires de Sousa Andrade",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Alex Cristian Oeiras barata",
+    "categoria": "Master A - 5KM - 40 a 49 anos",
+    "sexo": "Masculino",
+    "dataNascimento": "11/07/1981",
+    "camisa": "M",
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Alexandra Fernandes de Assis",
+    "categoria": "Master A - 5KM - 40 a 49 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "18/11/1983",
+    "camisa": "G",
+    "equipe": "Gogo runneres",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Alexandre da Silva ferreira",
+    "categoria": "Sub-13 - 1KM - até 13 anos",
+    "sexo": "Masculino",
+    "dataNascimento": "06/05/2017",
+    "camisa": "P",
+    "equipe": "Gogorunnrs",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Alexssandra de Sousa Martins",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "23/10/2000",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Estação Fitness",
-    "busca": "alexssandra de sousa martins"
+    "equipe": "Estação fitness",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Alice Emanuelle Monteiro Soares",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Feminino",
-    "nascimento": "21/02/2013",
+    "dataNascimento": "21/02/2013",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runneres",
-    "busca": "alice emanuelle monteiro soares"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Aliene Pinheiro De Araujo Santiago",
+    "nome": "Aliene pinheiro de araujo santiago",
     "categoria": "Master B - 5KM - 50 anos acima",
-    "grupo": "Master 50+",
     "sexo": "Feminino",
-    "nascimento": "28/11/1975",
+    "dataNascimento": "28/11/1975",
     "camisa": "GG",
-    "representaEquipe": "Sim",
     "equipe": "Corre Rio",
-    "busca": "aliene pinheiro de araujo santiago"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Alisson Fernandes Soares",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "29/11/1997",
+    "dataNascimento": "29/11/1997",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu_Do_Pará",
-    "busca": "alisson fernandes soares"
+    "equipe": "Dudu_do_Pará",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Altamir Crispim Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "03/10/1984",
+    "dataNascimento": "03/10/1984",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "altamir crispim silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Alyson De Oliveira Silva",
+    "nome": "ALYSON DE OLIVEIRA SILVA",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "05/05/2001",
+    "dataNascimento": "05/05/2001",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "alyson de oliveira silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Ana Carolina Alencar Rodrigues",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Feminino",
-    "nascimento": "13/04/2011",
+    "dataNascimento": "13/04/2011",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runneres",
-    "busca": "ana carolina alencar rodrigues"
+    "equipe": "Gogo runneres",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Ana Cláudia Dos Santos Silva",
+    "nome": "Ana Cláudia dos Santos Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "03/01/1990",
+    "dataNascimento": "03/01/1990",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Rose Training Academia Rum Delas",
-    "busca": "ana claudia dos santos silva"
+    "equipe": "Rose Training academia rum delas",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Ana Gabriela Soares Silva",
+    "nome": "Ana Gabriela Soares silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "06/02/2004",
+    "dataNascimento": "06/02/2004",
     "camisa": "XG",
-    "representaEquipe": "Não",
-    "equipe": "Sem Atividade Física",
-    "busca": "ana gabriela soares silva"
+    "equipe": "Sem atividade física",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Ana Karolyna Teixeira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "14/11/1995",
+    "dataNascimento": "14/11/1995",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "ana karolyna teixeira"
+    "equipe": "Studio JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Ana Laura De Castro Laranjeira",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Feminino",
-    "nascimento": "18/08/2010",
+    "dataNascimento": "18/08/2010",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Equipe Jp",
-    "busca": "ana laura de castro laranjeira"
+    "equipe": "Equipe JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Ana Paula De Limas Cardoso",
+    "nome": "Ana Paula de Limas Cardoso",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "31/05/1998",
+    "dataNascimento": "31/05/1998",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "Gogó Runners",
-    "busca": "ana paula de limas cardoso"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Ana Sousa Pereira",
+    "nome": "ANA SOUSA PEREIRA",
     "categoria": "Master B - 5KM - 50 anos acima",
-    "grupo": "Master 50+",
     "sexo": "Feminino",
-    "nascimento": "25/05/1975",
+    "dataNascimento": "25/05/1975",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "ana sousa pereira"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Anderson Brito Dos Santos",
+    "nome": "Anderson Brito dos Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "05/02/1988",
+    "dataNascimento": "05/02/1988",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Jp",
-    "busca": "anderson brito dos santos"
+    "equipe": "JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "André Luiz De Sá",
+    "nome": "André Luiz de Sá",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "11/07/1984",
+    "dataNascimento": "11/07/1984",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "andre luiz de sa"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Andréia Bezerra Silva Rocha",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "01/08/1984",
+    "dataNascimento": "01/08/1984",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "andreia bezerra silva rocha"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Andreia Lucia Daniel",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "12/08/1979",
+    "dataNascimento": "12/08/1979",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runmers",
-    "busca": "andreia lucia daniel"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Andressa Camargo Cabral",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "08/08/2001",
+    "dataNascimento": "08/08/2001",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "andressa camargo cabral"
+    "equipe": "Studio JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Andreza Caroline Azevedo Rodrigues",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "19/01/1995",
+    "dataNascimento": "19/01/1995",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Gogóruners",
-    "busca": "andreza caroline azevedo rodrigues"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Anna Rayssa Silva De Souza",
+    "nome": "Anna Rayssa Silva de Souza",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "22/05/2006",
+    "dataNascimento": "22/05/2006",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Não informado",
-    "busca": "anna rayssa silva de souza"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Anny Gabrielly Chaves Rodrigues",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "12/06/2007",
+    "dataNascimento": "12/06/2007",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "anny gabrielly chaves rodrigues"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Antônia Da Silva Lima Lacerda",
+    "nome": "Antônia da Silva Lima Lacerda",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "19/12/1981",
+    "dataNascimento": "19/12/1981",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "antonia da silva lima lacerda"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Antonio Fernandes Silva",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "29/07/1979",
+    "dataNascimento": "29/07/1979",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "antonio fernandes silva"
+    "equipe": "GoGo runners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Antonio Kennedy De Sousa Lima",
+    "nome": "ANTONIO KENNEDY DE SOUSA LIMA",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "18/10/1985",
+    "dataNascimento": "18/10/1985",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Biocorredores",
-    "busca": "antonio kennedy de sousa lima"
+    "equipe": "BIOCORREDORES",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Araujo.M.Sandra86@Gmail.Com",
+    "nome": "Araujo.m.sandra86@gmail.com",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "25/02/1986",
+    "dataNascimento": "25/02/1986",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Estação Fitness",
-    "busca": "araujo m sandra86 gmail com"
+    "equipe": "Estação fitness",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Arthur Francisco Branquinho Do Nascimento",
-    "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
+    "nome": "Aroldo Corrêa da Silva",
+    "categoria": "Elite 5KM - 18 a 39 anos",
     "sexo": "Masculino",
-    "nascimento": "03/12/2008",
+    "dataNascimento": "23/07/1989",
     "camisa": "G",
-    "representaEquipe": "Sim",
+    "equipe": "Aroldo Corrêa da Silva",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Arthur Francisco Branquinho do Nascimento",
+    "categoria": "Sub-17 - 2KM - até 17 anos",
+    "sexo": "Masculino",
+    "dataNascimento": "03/12/2008",
+    "camisa": "G",
     "equipe": "Gogo Runners",
-    "busca": "arthur francisco branquinho do nascimento"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Arthur Ribeiro Silva",
+    "nome": "Arthur Ribeiro silva",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Masculino",
-    "nascimento": "21/01/2020",
+    "dataNascimento": "21/01/2020",
     "camisa": "PP",
-    "representaEquipe": "Sim",
     "equipe": "Gogórunners",
-    "busca": "arthur ribeiro silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Ben Hur Marinho De Oliveira",
+    "nome": "Ben Hur Marinho de Oliveira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "18/05/2006",
+    "dataNascimento": "18/05/2006",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Corredores De São José",
-    "busca": "ben hur marinho de oliveira"
+    "equipe": "Corredores de São José",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Benjamin Daniel Da Silva Ferreira",
+    "nome": "Benjamin Daniel da silva ferreira",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Masculino",
-    "nascimento": "16/01/2017",
+    "dataNascimento": "16/01/2017",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogó Runers",
-    "busca": "benjamin daniel da silva ferreira"
+    "equipe": "Gogó runers",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Bernardo Dias De Souza",
+    "nome": "Bernardo Dias de Souza",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Masculino",
-    "nascimento": "23/06/2018",
+    "dataNascimento": "23/06/2018",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu Do Para",
-    "busca": "bernardo dias de souza"
+    "equipe": "Dudu do Para",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Betânia Batista Da Silva Antunes",
+    "nome": "Betânia Batista da Silva Antunes",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "09/05/1982",
+    "dataNascimento": "09/05/1982",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "betania batista da silva antunes"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Brígida Fernanda Chaves Rodrigues",
+    "nome": "BRÍGIDA FERNANDA CHAVES RODRIGUES",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "27/12/2003",
+    "dataNascimento": "27/12/2003",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "brigida fernanda chaves rodrigues"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Bruna Rodrigues Santana",
+    "nome": "Bruna Rodrigues santana",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "10/05/2001",
+    "dataNascimento": "10/05/2001",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "bruna rodrigues santana"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Bruno Leal Da Silva",
+    "nome": "Bruno leal da silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "02/10/1995",
+    "dataNascimento": "02/10/1995",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runers",
-    "busca": "bruno leal da silva"
+    "equipe": "Gogo runers",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Bruno Vieira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "08/08/1988",
+    "dataNascimento": "08/08/1988",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Anti Social Running Club",
-    "busca": "bruno vieira"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Caio Aguiar De Sousa",
+    "nome": "Caio Aguiar de Sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "21/07/1999",
+    "dataNascimento": "21/07/1999",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "caio aguiar de sousa"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Camila Eduardo De Souza",
+    "nome": "Camila Eduardo de Souza",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "19/10/2000",
+    "dataNascimento": "19/10/2000",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Corre Água Azul",
-    "busca": "camila eduardo de souza"
+    "equipe": "Corre água azul",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Carleana Almeida Sales",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "07/05/1987",
+    "dataNascimento": "07/05/1987",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "Studi Jump Alta Performance",
-    "busca": "carleana almeida sales"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Carliane Sousa Pires",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "12/04/1993",
+    "dataNascimento": "12/04/1993",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "carliane sousa pires"
+    "equipe": "Dudu_do_Para",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Carlos Eduardo Ferreira Araújo",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "17/07/2003",
+    "dataNascimento": "17/07/2003",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Hyfit1000",
-    "busca": "carlos eduardo ferreira araujo"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Caroline Nebo",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "31/01/1983",
+    "dataNascimento": "31/01/1983",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "caroline nebo"
+    "equipe": "Studio JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Carolliny Lopes De Queiroz",
+    "nome": "Carolliny lopes de Queiroz",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "31/08/2003",
+    "dataNascimento": "31/08/2003",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Joubert Procópio",
-    "busca": "carolliny lopes de queiroz"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Cecília Gomes Aires",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "23/12/2003",
+    "dataNascimento": "23/12/2003",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "cecilia gomes aires"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Claudiane De Souza Faria",
+    "nome": "Claudiane de souza faria",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "08/10/1992",
+    "dataNascimento": "08/10/1992",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "claudiane de souza faria"
+    "equipe": "Studio JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Claudivan Barbosa De Oliveira",
+    "nome": "Claudivan Barbosa de Oliveira",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "27/02/1984",
+    "dataNascimento": "27/02/1984",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runners",
-    "busca": "claudivan barbosa de oliveira"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Cleide Rodrigues Da Silva",
+    "nome": "Cleide Rodrigues da Silva",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "31/08/1984",
+    "dataNascimento": "31/08/1984",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "cleide rodrigues da silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Cleuma De Oliveira Mendanha Silva",
+    "nome": "Cleuma de Oliveira Mendanha Silva",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "02/02/1985",
+    "dataNascimento": "02/02/1985",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "cleuma de oliveira mendanha silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Cristiane De Souza Faria",
+    "nome": "Cristiane de Souza Faria",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "05/07/1986",
+    "dataNascimento": "05/07/1986",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Studiojp  Jp",
-    "busca": "cristiane de souza faria"
+    "equipe": "STUDIOJP  JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Cristiano Procópio De Oliveira",
+    "nome": "Cristiano Procópio de Oliveira",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "01/05/1981",
+    "dataNascimento": "01/05/1981",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "cristiano procopio de oliveira"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Damaris Manoela",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "07/02/2003",
+    "dataNascimento": "07/02/2003",
     "camisa": "PP",
-    "representaEquipe": "Sim",
     "equipe": "Fogo Runners",
-    "busca": "damaris manoela"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Daniel Castro",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Masculino",
-    "nascimento": "30/06/2008",
+    "dataNascimento": "30/06/2008",
     "camisa": "G",
-    "representaEquipe": "Não",
     "equipe": ".",
-    "busca": "daniel castro"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Daniel Santiago Da Silva",
+    "nome": "Daniel Santiago da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "02/08/2003",
+    "dataNascimento": "02/08/2003",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "daniel santiago da silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Daniela Felix Vaz",
+    "nome": "Daniela Felix vaz",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "27/08/1998",
+    "dataNascimento": "27/08/1998",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "daniela felix vaz"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Daniella De Sousa Costa Maia",
+    "nome": "Daniella de Sousa costa maia",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "26/06/1992",
+    "dataNascimento": "26/06/1992",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "daniella de sousa costa maia"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Danielle Da Silva Moura",
+    "nome": "Danielle da silva Moura",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "03/08/2003",
+    "dataNascimento": "03/08/2003",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "danielle da silva moura"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Danila Barros Capellari",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "26/03/2026",
+    "dataNascimento": "26/03/2026",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Academia Sparta",
-    "busca": "danila barros capellari"
+    "equipe": "Academia sparta",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Dayane Da Silva Lima",
+    "nome": "Dayane da Silva Lima",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "15/05/1994",
+    "dataNascimento": "15/05/1994",
     "camisa": "PP",
-    "representaEquipe": "Sim",
     "equipe": "Gogorunners",
-    "busca": "dayane da silva lima"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Dayane Mendes Nicacio",
+    "nome": "DAYANE MENDES NICACIO",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "04/07/1995",
+    "dataNascimento": "04/07/1995",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Jb Joubert",
-    "busca": "dayane mendes nicacio"
+    "equipe": "JB JOUBERT",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Dayane Prochera Batista",
+    "nome": "DAYANE PROCHERA BATISTA",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "20/09/1992",
+    "dataNascimento": "20/09/1992",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "dayane prochera batista"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Dayane Silva Ferreira",
+    "nome": "Dayane Silva ferreira",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "17/08/1992",
+    "dataNascimento": "17/08/1992",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Jourbert",
-    "busca": "dayane silva ferreira"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Débora Oliveira Nery",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "08/03/1998",
+    "dataNascimento": "08/03/1998",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "debora oliveira nery"
+    "equipe": "Gogo runners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Denise Andrade",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "16/12/1987",
+    "dataNascimento": "16/12/1987",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu_Do_Para",
-    "busca": "denise andrade"
+    "equipe": "Dudu_do_para",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Diego Barbosa Chagas",
+    "nome": "Diego Barbosa chagas",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "16/02/1993",
+    "dataNascimento": "16/02/1993",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "diego barbosa chagas"
+    "equipe": "Gogo runners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Dina Charles Silva Marinho",
+    "nome": "Dina charles silva marinho",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "08/10/1983",
+    "dataNascimento": "08/10/1983",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "dina charles silva marinho"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Diomar Evangelista De Sousa",
+    "nome": "Diomar Evangelista de Sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "06/12/1988",
+    "dataNascimento": "06/12/1988",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "One Run",
-    "busca": "diomar evangelista de sousa"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Dione Silva Souza",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "24/09/2001",
+    "dataNascimento": "24/09/2001",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "dione silva souza"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Douglas Daniel Ferreira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "09/06/1997",
+    "dataNascimento": "09/06/1997",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Gogórunners",
-    "busca": "douglas daniel ferreira"
+    "equipe": "GogóRunners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Edilene Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "16/05/1992",
+    "dataNascimento": "16/05/1992",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "edilene silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Edilson Galdino Do Carmo",
+    "nome": "EDILSON GALDINO DO CARMO",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "26/01/1985",
+    "dataNascimento": "26/01/1985",
     "camisa": "GG",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "edilson galdino do carmo"
+    "equipe": "STUDIO JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Editania Menezes Dos Santos",
+    "nome": "Editania Menezes dos Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "13/10/1999",
+    "dataNascimento": "13/10/1999",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Coyotes Running",
-    "busca": "editania menezes dos santos"
+    "equipe": "Coyotes running",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Eduardo Moreira De Sousa",
+    "nome": "Eduardo Moreira de Sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "07/05/1993",
+    "dataNascimento": "07/05/1993",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu_Do_Para",
-    "busca": "eduardo moreira de sousa"
+    "equipe": "Dudu_do_Para",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Elaine Patrícia Pereira Almeida",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "05/08/1988",
+    "dataNascimento": "05/08/1988",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "elaine patricia pereira almeida"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Eliane Maria Rodrigues Daniel",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "26/01/2026",
+    "dataNascimento": "26/01/2026",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "Gogó Runners",
-    "busca": "eliane maria rodrigues daniel"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Emily Vitória Da Silva Ferreira",
+    "nome": "Emily Vitória da Silva Ferreira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "19/04/2012",
+    "dataNascimento": "19/04/2012",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "Gogorunners",
-    "busca": "emily vitoria da silva ferreira"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Enzo Gabriel Da Cruz Cardoso",
+    "nome": "Enzo Gabriel da Cruz Cardoso",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Masculino",
-    "nascimento": "18/04/2013",
+    "dataNascimento": "18/04/2013",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "enzo gabriel da cruz cardoso"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Erick Estivens Carvalho Da Silva",
+    "nome": "Erick Estivens Carvalho da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "20/11/1992",
+    "dataNascimento": "20/11/1992",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogórunners",
-    "busca": "erick estivens carvalho da silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Erika Dayanne Alves Da Silva",
+    "nome": "Erika dayanne alves da silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "05/11/1992",
+    "dataNascimento": "05/11/1992",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "erika dayanne alves da silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Érika Figueiredo",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "18/02/1997",
+    "dataNascimento": "18/02/1997",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "erika figueiredo"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Erika Kethellen De Araújo Ramos",
+    "nome": "Erika Kethellen de Araújo Ramos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "05/06/2004",
+    "dataNascimento": "05/06/2004",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "erika kethellen de araujo ramos"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Evanderson Ferreira De Souza Bento",
+    "nome": "Evanderson Ferreira de Souza Bento",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "01/01/1990",
+    "dataNascimento": "01/01/1990",
     "camisa": "XG",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "evanderson ferreira de souza bento"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Ezia Batista De Faria",
+    "nome": "Ezia Batista de faria",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "08/11/1993",
+    "dataNascimento": "08/11/1993",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "One Rum",
-    "busca": "ezia batista de faria"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Fabiano Da Cruz Rocha",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "15/05/1991",
+    "dataNascimento": "15/05/1991",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "fabiano da cruz rocha"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Fabrício De Sá Soares",
+    "nome": "Fabrício de Sá soares",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "12/08/1988",
+    "dataNascimento": "12/08/1988",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runners",
-    "busca": "fabricio de sa soares"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Fabrício Leite Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "08/04/2001",
+    "dataNascimento": "08/04/2001",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogó Runers",
-    "busca": "fabricio leite silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Felipe Souza De Miranda",
+    "nome": "Felipe Souza de Miranda",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "03/03/2005",
+    "dataNascimento": "03/03/2005",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "felipe souza de miranda"
+    "equipe": "Studio JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Fernanda Da Silva Coelho",
+    "nome": "Fernanda da Conceição Alves",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "19/10/1996",
+    "dataNascimento": "18/11/1999",
+    "camisa": "M",
+    "equipe": "Fernanda da Conceição Alves",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Fernanda da silva coelho",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "19/10/1996",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "fernanda da silva coelho"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Fernanda Santos De Assunção",
+    "nome": "Fernanda Santos de assunção",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "19/09/1993",
+    "dataNascimento": "19/09/1993",
     "camisa": "GG",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "fernanda santos de assuncao"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Flaukia Rodrigues De Moraes Das Neves",
+    "nome": "FLAUKIA RODRIGUES DE MORAES DAS NEVES",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "29/07/1992",
+    "dataNascimento": "29/07/1992",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "flaukia rodrigues de moraes das neves"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Franciely Trigueiro de Souza",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "23/11/1993",
+    "camisa": "M",
+    "equipe": "Franciely Trigueiro de Souza",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Francinádia Pereira Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "16/11/2000",
+    "dataNascimento": "16/11/2000",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "francinadia pereira santos"
+    "equipe": "GOGO RUNNERS",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Francinalva Vieira De Carvalho",
+    "nome": "Francinalva Vieira de Carvalho",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "11/10/1982",
+    "dataNascimento": "11/10/1982",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "francinalva vieira de carvalho"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Francisca Das Chagas Nunes Rodrigues",
+    "nome": "Francisca das Chagas Nunes Rodrigues",
     "categoria": "Master B - 5KM - 50 anos acima",
-    "grupo": "Master 50+",
     "sexo": "Feminino",
-    "nascimento": "14/08/1971",
+    "dataNascimento": "14/08/1971",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "francisca das chagas nunes rodrigues"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Francisca Luzivania De Oliveira",
+    "nome": "Francisca Luzivania de Oliveira",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "22/08/1981",
+    "dataNascimento": "22/08/1981",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "francisca luzivania de oliveira"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Francisco De Assis Santos Da Silva",
+    "nome": "Francisco de Assis Santos da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "21/02/2001",
+    "dataNascimento": "21/02/2001",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "francisco de assis santos da silva"
+    "equipe": "GOGO RUNNERS",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Francisco Wagner Araújo Barros",
     "categoria": "Master B - 5KM - 50 anos acima",
-    "grupo": "Master 50+",
     "sexo": "Masculino",
-    "nascimento": "02/05/1976",
+    "dataNascimento": "02/05/1976",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "francisco wagner araujo barros"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Gildo Cruz Pereira",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "23/07/1978",
+    "dataNascimento": "23/07/1978",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Corredores De São José",
-    "busca": "gildo cruz pereira"
+    "equipe": "Corredores de São José",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Gisele De Sousa Coelho",
+    "nome": "Gisele de Sousa Coelho",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "27/06/2026",
+    "dataNascimento": "27/06/2026",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "gisele de sousa coelho"
+    "equipe": "Studio JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Guilherme Calaço De Oliveira",
+    "nome": "Graciele Macedo dos Santos",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "10/04/1987",
+    "camisa": "M",
+    "equipe": "Studio Jump Alta Performance",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Graziely trigueiro de Souza",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "24/03/1995",
+    "camisa": "M",
+    "equipe": "Graziely trigueiro de Souza",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Guilherme Calaço de oliveira",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "10/12/2002",
+    "dataNascimento": "10/12/2002",
     "camisa": "GG",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "guilherme calaco de oliveira"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Guilherme Farias Saldanha",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "16/03/2000",
+    "dataNascimento": "16/03/2000",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "guilherme farias saldanha"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Hayanna Ribeiro",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "14/01/1991",
+    "dataNascimento": "14/01/1991",
     "camisa": "M",
-    "representaEquipe": "Não",
     "equipe": "Nao",
-    "busca": "hayanna ribeiro"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Helio Damaceno Júnior",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "11/09/2003",
+    "dataNascimento": "11/09/2003",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Equipe Jp",
-    "busca": "helio damaceno junior"
+    "equipe": "Equipe JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Hellen Karoline Landin Da Silva",
+    "nome": "Hellen Karoline Landin da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "20/07/1997",
+    "dataNascimento": "20/07/1997",
     "camisa": "PP",
-    "representaEquipe": "Sim",
     "equipe": "Gogó Runners",
-    "busca": "hellen karoline landin da silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Heloísa Karolay De Andrade Rodrigues",
+    "nome": "Heloísa Karolay de Andrade Rodrigues",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "23/08/2003",
+    "dataNascimento": "23/08/2003",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "heloisa karolay de andrade rodrigues"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Higor De Sousa Batista",
+    "nome": "Higor de Sousa Batista",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "01/02/2006",
+    "dataNascimento": "01/02/2006",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "higor de sousa batista"
+    "equipe": "Gogo runners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Hugo Ayalla Menezes",
+    "nome": "Hugo ayalla menezes",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "09/05/2002",
+    "dataNascimento": "09/05/2002",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Endorfina1000",
-    "busca": "hugo ayalla menezes"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Iara Lima Monteiro",
+    "nome": "Iara Lima monteiro",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "10/01/1993",
+    "dataNascimento": "10/01/1993",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "iara lima monteiro"
+    "equipe": "Gogo runners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Idelvino Guilherme Do Nascimento Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "22/04/2001",
+    "dataNascimento": "22/04/2001",
     "camisa": "GG",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runners",
-    "busca": "idelvino guilherme do nascimento santos"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Ingrid Arruda Ribeiro Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "19/10/1998",
+    "dataNascimento": "19/10/1998",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "ingrid arruda ribeiro silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Ionara Gomes Brito",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "10/10/1978",
+    "dataNascimento": "10/10/1978",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "ionara gomes brito"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Iraque Soares Rocha",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "19/05/2006",
+    "dataNascimento": "19/05/2006",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogó Runners",
-    "busca": "iraque soares rocha"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Irisvania Brasil Sousa",
+    "nome": "Irisvania brasil Sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "25/10/1993",
+    "dataNascimento": "25/10/1993",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "irisvania brasil sousa"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Isadora Dorta Lima",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Feminino",
-    "nascimento": "22/04/2010",
+    "dataNascimento": "22/04/2010",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "isadora dorta lima"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Ivana Dos Santos Monteiro",
+    "nome": "Ivana dos Santos Monteiro",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "28/12/1986",
+    "dataNascimento": "28/12/1986",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "ivana dos santos monteiro"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Jaci Dorta Da Silva Aragão",
+    "nome": "Jaci Dorta da Silva Aragão",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "10/10/1984",
+    "dataNascimento": "10/10/1984",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "jaci dorta da silva aragao"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Jakeline Chaves De Mendonça",
+    "nome": "Jair Ribeiro de Sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
+    "sexo": "Masculino",
+    "dataNascimento": "24/08/1994",
+    "camisa": "M",
+    "equipe": "Jair Ribeiro de Sousa",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Jakeline Chaves de Mendonça",
+    "categoria": "Elite 5KM - 18 a 39 anos",
     "sexo": "Feminino",
-    "nascimento": "22/02/1994",
+    "dataNascimento": "22/02/1994",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Corre Rio",
-    "busca": "jakeline chaves de mendonca"
+    "equipe": "Corre rio",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Jaquison Andrade",
     "categoria": "Master B - 5KM - 50 anos acima",
-    "grupo": "Master 50+",
     "sexo": "Masculino",
-    "nascimento": "10/08/1960",
+    "dataNascimento": "10/08/1960",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Corredores De São José",
-    "busca": "jaquison andrade"
+    "equipe": "Corredores de São José",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Jarder Da Silva Marinho",
+    "nome": "Jarder da Silva marinho",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "18/11/1987",
+    "dataNascimento": "18/11/1987",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runers",
-    "busca": "jarder da silva marinho"
+    "equipe": "Gogo runers",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Jariciane Cruz Setubal",
+    "nome": "JARICIANE CRUZ SETUBAL",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "04/03/1983",
+    "dataNascimento": "04/03/1983",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu Do Para",
-    "busca": "jariciane cruz setubal"
+    "equipe": "Dudu do Para",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Jéssica De Lima Alves",
+    "nome": "Jéssica de Lima Alves",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "08/09/1993",
+    "dataNascimento": "08/09/1993",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "jessica de lima alves"
+    "equipe": "Dudu_do_Para",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Jhully Kemelly da Silva Abreu",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "20/03/2008",
+    "camisa": "M",
+    "equipe": "Jhully Kemelly da Silva Abreu",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Joanice Lemes Da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "28/07/1995",
+    "dataNascimento": "28/07/1995",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Corre Rio",
-    "busca": "joanice lemes da silva"
+    "equipe": "CORRE RIO",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "João Dionilio Maximiano Araújo",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "07/02/2006",
+    "dataNascimento": "07/02/2006",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "joao dionilio maximiano araujo"
+    "equipe": "STUDIO JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "João Gabriel De Lima Cruz",
+    "nome": "João Gabriel de Lima Cruz",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "29/07/2007",
+    "dataNascimento": "29/07/2007",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "joao gabriel de lima cruz"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "João Machado",
+    "nome": "JOÃO MACHADO",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "11/04/1995",
+    "dataNascimento": "11/04/1995",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Perfromance",
-    "busca": "joao machado"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "João Paulo Da Silva Pires",
+    "nome": "João Paulo da Silva Pires",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "02/04/2008",
+    "dataNascimento": "02/04/2008",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "joao paulo da silva pires"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "João Pedro Alves Da Silva",
+    "nome": "João Pedro Alves da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "11/05/2008",
+    "dataNascimento": "11/05/2008",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogórunnes",
-    "busca": "joao pedro alves da silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "João Pedro Alves Rodrigues",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "04/06/2008",
+    "dataNascimento": "04/06/2008",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "joao pedro alves rodrigues"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "João Raphael De Souza Cunha",
+    "nome": "João Raphael de Souza cunha",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Masculino",
-    "nascimento": "28/11/2011",
+    "dataNascimento": "28/11/2011",
     "camisa": "P",
-    "representaEquipe": "Não",
     "equipe": "Não",
-    "busca": "joao raphael de souza cunha"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "João Vitor De Oliveira Sousa",
+    "nome": "João Vitor de Oliveira sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "08/08/2005",
+    "dataNascimento": "08/08/2005",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runners",
-    "busca": "joao vitor de oliveira sousa"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Jonas Almeida Silva",
+    "nome": "JONAS Almeida Silva",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Masculino",
-    "nascimento": "14/04/2020",
+    "dataNascimento": "14/04/2020",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "jonas almeida silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Josilene Batista Corrêa Borges",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "30/06/1981",
+    "dataNascimento": "30/06/1981",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Rose Training Run Delas",
-    "busca": "josilene batista correa borges"
+    "equipe": "Rose training run delas",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Josué Chaves Reis",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "09/11/2004",
+    "dataNascimento": "09/11/2004",
     "camisa": "XG",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "josue chaves reis"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Juarez Ramos De Brito Júnior",
+    "nome": "JUAREZ RAMOS DE BRITO JÚNIOR",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "18/01/1984",
+    "dataNascimento": "18/01/1984",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "juarez ramos de brito junior"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Júlia Sousa Bezerra",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "28/10/2006",
+    "dataNascimento": "28/10/2006",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Elite Run",
-    "busca": "julia sousa bezerra"
+    "equipe": "ELITE RUN",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Juliete Barbosa Miranda",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "04/06/1995",
+    "dataNascimento": "04/06/1995",
     "camisa": "PP",
-    "representaEquipe": "Sim",
     "equipe": "Corre Rio",
-    "busca": "juliete barbosa miranda"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Kamily Dos Santos Vieira",
+    "nome": "Kamily dos Santos vieira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "19/04/2006",
+    "dataNascimento": "19/04/2006",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Jp",
-    "busca": "kamily dos santos vieira"
+    "equipe": "JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Kaylane De Souza Galdino",
+    "nome": "Kaylane de Souza Galdino",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "08/02/2003",
+    "dataNascimento": "08/02/2003",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "kaylane de souza galdino"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Kesia Rutielly Moreira Gomes",
+    "nome": "Kesia Rutielly Moreira gomes",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "25/11/2001",
+    "dataNascimento": "25/11/2001",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "kesia rutielly moreira gomes"
+    "equipe": "Gogo runners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Kethllen Caroliny De Sousa Fonseca",
+    "nome": "Kethllen Caroliny de Sousa Fonseca",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "04/02/1999",
+    "dataNascimento": "04/02/1999",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Elas No Pace",
-    "busca": "kethllen caroliny de sousa fonseca"
+    "equipe": "Elas no Pace",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Khauan Victor Rodrigues De Souza",
+    "nome": "Khauan victor rodrigues de souza",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Masculino",
-    "nascimento": "30/06/2009",
+    "dataNascimento": "30/06/2009",
     "camisa": "GG",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "khauan victor rodrigues de souza"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Laila Cristine Limeira Caldas",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "26/12/1988",
+    "dataNascimento": "26/12/1988",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "Academia Sparta",
-    "busca": "laila cristine limeira caldas"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lais Kalinny Das Chagas Lima Galvão",
+    "nome": "Lais Kalinny das Chagas Lima Galvão",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Feminino",
-    "nascimento": "25/11/2009",
+    "dataNascimento": "25/11/2009",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu_Do_Pará",
-    "busca": "lais kalinny das chagas lima galvao"
+    "equipe": "DUDU_DO_PARÁ",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lallumy Gabriela Soares De Oliveira",
+    "nome": "Lallumy Gabriela Soares de Oliveira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "29/06/1995",
+    "dataNascimento": "29/06/1995",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Corre Água Azul",
-    "busca": "lallumy gabriela soares de oliveira"
+    "equipe": "Corre água azul",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Larissa Mariana Costa",
+    "nome": "LARISSA MARIANA COSTA",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "05/10/1993",
+    "dataNascimento": "05/10/1993",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "larissa mariana costa"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lauana Alves Da Silva",
+    "nome": "Lauana Alves da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "30/11/2004",
+    "dataNascimento": "30/11/2004",
     "camisa": "PP",
-    "representaEquipe": "Sim",
     "equipe": "Runbora Canaã",
-    "busca": "lauana alves da silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lauany Vitória De Melo Teixeira",
+    "nome": "Lauany Vitória de Melo Teixeira",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Feminino",
-    "nascimento": "07/07/2010",
+    "dataNascimento": "07/07/2010",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "lauany vitoria de melo teixeira"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lauriele Machado De Sousa",
+    "nome": "Lauriele Machado de Sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "01/11/1992",
+    "dataNascimento": "01/11/1992",
     "camisa": "PP",
-    "representaEquipe": "Não",
     "equipe": "Jean Orientarista",
-    "busca": "lauriele machado de sousa"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lázaro Filipe Do Nascimento Santos",
+    "nome": "Lázaro Filipe do Nascimento Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "10/07/1993",
+    "dataNascimento": "10/07/1993",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "lazaro filipe do nascimento santos"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Leila Das Neves Roseno",
+    "nome": "Leila das Neves Roseno",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "01/12/1987",
+    "dataNascimento": "01/12/1987",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "leila das neves roseno"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Leiliane Pereira Da Silva",
+    "nome": "Leiliane Pereira da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "07/05/2002",
+    "dataNascimento": "07/05/2002",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "leiliane pereira da silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Leo De Morais Magalhães",
+    "nome": "Leo de morais Magalhães",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "28/08/2006",
+    "dataNascimento": "28/08/2006",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogorunners",
-    "busca": "leo de morais magalhaes"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Leonardo Reis De Sousa Aguiar",
+    "nome": "Leonardo de Oliveira Gomes",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "06/01/2026",
+    "dataNascimento": "03/08/1994",
+    "camisa": "G",
+    "equipe": "Leonardo de Oliveira Gomes",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Leonardo Reis de Sousa Aguiar",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Masculino",
+    "dataNascimento": "06/01/2026",
     "camisa": "GG",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "leonardo reis de sousa aguiar"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Letícia Almeida",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "17/06/2002",
+    "dataNascimento": "17/06/2002",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "leticia almeida"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Letícia da Silva Sousa",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "05/06/2000",
+    "camisa": "P",
+    "equipe": "Letícia da Silva Sousa",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Letícia Nunes Rodrigues",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "30/05/1992",
+    "dataNascimento": "30/05/1992",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "leticia nunes rodrigues"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Letícia Rodrigues Daniel",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "05/10/2004",
+    "dataNascimento": "05/10/2004",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Gogó Runners",
-    "busca": "leticia rodrigues daniel"
+    "equipe": "Gogó runners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lidia Lígia De Oliveira Silva",
+    "nome": "Lidia Lígia de Oliveira silva",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "21/10/1984",
+    "dataNascimento": "21/10/1984",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu_Do_Para",
-    "busca": "lidia ligia de oliveira silva"
+    "equipe": "Dudu_do_para",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Luana Caetano Coelho",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "15/08/1996",
+    "dataNascimento": "15/08/1996",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu Do Para",
-    "busca": "luana caetano coelho"
+    "equipe": "Dudu do para",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Luana Costa De Souza",
+    "nome": "Luana Costa de Souza",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "02/07/1996",
+    "dataNascimento": "02/07/1996",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "luana costa de souza"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lucas Almeida Silva",
+    "nome": "LUANA DE SOUZA BARBOSA",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "04/04/1996",
+    "camisa": "PP",
+    "equipe": "LUANA DE SOUZA BARBOSA",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "LUCAS Almeida Silva",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Feminino",
-    "nascimento": "24/07/2018",
+    "dataNascimento": "24/07/2018",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "lucas almeida silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lucas De Moura Reges",
+    "nome": "Lucas de Moura Reges",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Masculino",
-    "nascimento": "07/08/2009",
+    "dataNascimento": "07/08/2009",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "lucas de moura reges"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lucas Emanuel Reis Da Silva",
+    "nome": "Lucas Emanuel reis da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "23/04/2000",
+    "dataNascimento": "23/04/2000",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "lucas emanuel reis da silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lucas Gabriel De Sousa Santos",
+    "nome": "Lucas Gabriel de Sousa Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "30/04/1999",
+    "dataNascimento": "30/04/1999",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runner",
-    "busca": "lucas gabriel de sousa santos"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Lucas Nazaré Miranda",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "11/04/1995",
+    "dataNascimento": "11/04/1995",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Gogorunnersoficial",
-    "busca": "lucas nazare miranda"
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Lucas Nogueira Resende",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Masculino",
+    "dataNascimento": "01/09/1995",
+    "camisa": "M",
+    "equipe": "Estação Fitness",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Lucas Souza Miranda",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Masculino",
-    "nascimento": "19/06/2009",
+    "dataNascimento": "19/06/2009",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "lucas souza miranda"
+    "equipe": "Studio JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lucilene Dos Santos Barbosa",
+    "nome": "lucilene dos santos barbosa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "13/09/1991",
+    "dataNascimento": "13/09/1991",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Corre Água  Azul",
-    "busca": "lucilene dos santos barbosa"
+    "equipe": "corre água  azul",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Lucilene Pinto Moreira",
+    "nome": "lucilene pinto moreira",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "24/07/1977",
+    "dataNascimento": "24/07/1977",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Corre Água Azul",
-    "busca": "lucilene pinto moreira"
+    "equipe": "corre água azul",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Lucinaria Vieira Almeida",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "11/07/1995",
+    "camisa": "M",
+    "equipe": "Lucinaria Vieira Almeida",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Luelen Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "03/06/1997",
+    "dataNascimento": "03/06/1997",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "luelen santos"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Luingrid Lopes Sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "27/07/2000",
+    "dataNascimento": "27/07/2000",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu_Do_Para",
-    "busca": "luingrid lopes sousa"
+    "equipe": "dudu_do_para",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Luis Felipe Rodrigues De Oliveira",
+    "nome": "Luis Felipe Rodrigues de Oliveira",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Masculino",
-    "nascimento": "19/01/2011",
+    "dataNascimento": "19/01/2011",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jump Alta Performance",
-    "busca": "luis felipe rodrigues de oliveira"
+    "equipe": "Studio Jump ALta Performance",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Luís Gustavo Da Cruz Cardoso",
+    "nome": "Luís Gustavo da Cruz Cardoso",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Masculino",
-    "nascimento": "26/08/2011",
+    "dataNascimento": "26/08/2011",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "luis gustavo da cruz cardoso"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Luiz Gabriel Da Silva",
-    "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
+    "nome": "Luiz Gabriel da Silva",
+    "categoria": "Sub-17 - 2KM - até 17 anos",
     "sexo": "Masculino",
-    "nascimento": "10/05/2026",
+    "dataNascimento": "10/05/2012",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "luiz gabriel da silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Luiz Otávio Soares Da Silva",
+    "nome": "Luiz Otávio Soares da Silva",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Masculino",
-    "nascimento": "06/03/2009",
+    "dataNascimento": "06/03/2009",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runners",
-    "busca": "luiz otavio soares da silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Luzia Alves Da Silva Barros",
+    "nome": "Luzia Alves da Silva Barros",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "03/12/1979",
+    "dataNascimento": "03/12/1979",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "luzia alves da silva barros"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Luzia Silva Rocha",
+    "nome": "LUZIA SILVA ROCHA",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "09/09/1995",
+    "dataNascimento": "09/09/1995",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "luzia silva rocha"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maiara Alves Da Silva Daniel",
+    "nome": "Maiara Alves da Silva Daniel",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "20/07/1989",
+    "dataNascimento": "20/07/1989",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Gogórunners",
-    "busca": "maiara alves da silva daniel"
+    "equipe": "GogóRunners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Manoel Moura Das Chagas Filho",
+    "nome": "Manoel Moura das chagas filho",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "28/09/1985",
+    "dataNascimento": "28/09/1985",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Wd Running Division",
-    "busca": "manoel moura das chagas filho"
+    "equipe": "WD running division",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Marcela De Carvalho Câmara",
+    "nome": "Marcela de Carvalho Câmara",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "26/02/1992",
+    "dataNascimento": "26/02/1992",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "marcela de carvalho camara"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Marcelo Vinicius",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "05/12/1985",
+    "dataNascimento": "05/12/1985",
     "camisa": "GG",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "marcelo vinicius"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Marcivania Araujo Da Silva",
+    "nome": "Marcivania Araujo da silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "04/10/1999",
+    "dataNascimento": "04/10/1999",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Runners Fda",
-    "busca": "marcivania araujo da silva"
+    "equipe": "Runners FDA",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Marcus Vinícius Andrade Dos Santos",
+    "nome": "Marcus Vinícius Andrade dos Santos",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "27/09/1976",
+    "dataNascimento": "27/09/1976",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "marcus vinicius andrade dos santos"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Mareça Santos Da Silva",
+    "nome": "Mareça Santos da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "27/01/1998",
+    "dataNascimento": "27/01/1998",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "mareca santos da silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maria Clara Coelho Guimarães",
+    "nome": "Maria Clara coelho Guimarães",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Feminino",
-    "nascimento": "12/12/2009",
+    "dataNascimento": "12/12/2009",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "maria clara coelho guimaraes"
+    "equipe": "Studio JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maria Daniela De Souza Noleto",
+    "nome": "Maria Daniela de Souza Noleto",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "29/06/1986",
+    "dataNascimento": "29/06/1986",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "maria daniela de souza noleto"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maria Do Socorro Gomes Da Costa",
+    "nome": "Maria do Socorro Gomes da Costa",
     "categoria": "Master B - 5KM - 50 anos acima",
-    "grupo": "Master 50+",
     "sexo": "Feminino",
-    "nascimento": "26/12/2026",
+    "dataNascimento": "26/11/1965",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "maria do socorro gomes da costa"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maria Domingas Dos Santos Barbosa",
+    "nome": "Maria Domingas dos Santos Barbosa",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "17/10/1976",
+    "dataNascimento": "17/10/1976",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Rose Academia",
-    "busca": "maria domingas dos santos barbosa"
+    "equipe": "Rose academia",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Maria Eduarda De Sousa Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "23/02/2005",
+    "dataNascimento": "23/02/2005",
     "camisa": "P",
-    "representaEquipe": "Não",
     "equipe": "Não",
-    "busca": "maria eduarda de sousa silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Maria Eduarda Ferreira Rodrigues",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "05/12/2004",
+    "dataNascimento": "05/12/2004",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "maria eduarda ferreira rodrigues"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Maria Eduarda Grassi Valadão",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "14/11/2003",
+    "dataNascimento": "14/11/2003",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "maria eduarda grassi valadao"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maria Elionete De Jesus Itacaramby",
+    "nome": "Maria Elionete de Jesus Itacaramby",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "08/01/1984",
+    "dataNascimento": "08/01/1984",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Corrida Das Musas",
-    "busca": "maria elionete de jesus itacaramby"
+    "equipe": "Corrida das Musas",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Maria Helena Souza Reis",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Feminino",
-    "nascimento": "16/05/2017",
+    "dataNascimento": "16/05/2017",
     "camisa": "PP",
-    "representaEquipe": "Sim",
     "equipe": "Jp",
-    "busca": "maria helena souza reis"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maria José Teixeira Da Silva",
+    "nome": "Maria José Teixeira da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "15/09/2026",
+    "dataNascimento": "15/09/2026",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogorunners",
-    "busca": "maria jose teixeira da silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Maria Luiza Dorta Aragão",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Feminino",
-    "nascimento": "21/11/2010",
+    "dataNascimento": "21/11/2010",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "maria luiza dorta aragao"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maria Safira De Sousa Coimbra",
+    "nome": "Maria Safira de Sousa Coimbra",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "04/01/2002",
+    "dataNascimento": "04/01/2002",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogorunnes",
-    "busca": "maria safira de sousa coimbra"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maria Sandra Do Nascimento",
+    "nome": "Maria Sandra do Nascimento",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "03/04/1991",
+    "dataNascimento": "03/04/1991",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "maria sandra do nascimento"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Mariana Carneiro Coimbra",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "10/02/2006",
+    "dataNascimento": "10/02/2006",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runners",
-    "busca": "mariana carneiro coimbra"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Mariana Souza Dos Santos",
+    "nome": "Mariana Souza dos santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "07/05/2004",
+    "dataNascimento": "07/05/2004",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogórunners",
-    "busca": "mariana souza dos santos"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Marina Alves Da Silva Lima",
+    "nome": "MARINA ALVES DA SILVA LIMA",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "04/07/1980",
+    "dataNascimento": "04/07/1980",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Biocorredores",
-    "busca": "marina alves da silva lima"
+    "equipe": "BIOCORREDORES",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Marivania Dos Santos Pereira",
+    "nome": "Marivania dos Santos Pereira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "17/06/1999",
+    "dataNascimento": "17/06/1999",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Studio Jp",
-    "busca": "marivania dos santos pereira"
+    "equipe": "Studio JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Marivania Pereira Dos Santos",
+    "nome": "Marivania Pereira dos Santos",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "29/04/1981",
+    "dataNascimento": "29/04/1981",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Rose Academia",
-    "busca": "marivania pereira dos santos"
+    "equipe": "Rose academia",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Mateus Rodrigues",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "02/07/2003",
+    "dataNascimento": "02/07/2003",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "mateus rodrigues"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Matheus Da Silva Amaral",
+    "nome": "Matheus da Silva Amaral",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "19/02/1996",
+    "dataNascimento": "19/02/1996",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "matheus da silva amaral"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Matheus Heitor Lima De Souza Pantoja",
+    "nome": "Matheus Heitor Lima de Souza Pantoja",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Masculino",
-    "nascimento": "12/11/2017",
+    "dataNascimento": "12/11/2017",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "matheus heitor lima de souza pantoja"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Matheus Torres",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "18/07/1999",
+    "dataNascimento": "18/07/1999",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "One Run E Equipe Vamos Pra Cima",
-    "busca": "matheus torres"
+    "equipe": "One Run e Equipe Vamos pra Cima",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Maycon Douglas Limeira Caldas",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "02/05/1990",
+    "dataNascimento": "02/05/1990",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Academia Sparta",
-    "busca": "maycon douglas limeira caldas"
+    "equipe": "Academia sparta",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maykon Keverson Monteiro De Carvalho",
+    "nome": "Maykon keverson Monteiro de Carvalho",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "11/04/2004",
+    "dataNascimento": "11/04/2004",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Joubert",
-    "busca": "maykon keverson monteiro de carvalho"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Maysa Kesia Da Silva Lima",
+    "nome": "MAYSA KESIA DA SILVA LIMA",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Feminino",
-    "nascimento": "08/12/2012",
+    "dataNascimento": "08/12/2012",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogorunners",
-    "busca": "maysa kesia da silva lima"
+    "equipe": "GOGORUNNERS",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Meirielle",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "05/01/2003",
+    "dataNascimento": "05/01/2003",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "meirielle"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Micaele Dias Oliveira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "19/02/2002",
+    "dataNascimento": "19/02/2002",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "micaele dias oliveira"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Milena Melo",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "26/04/2000",
+    "dataNascimento": "26/04/2000",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "Gogórunners",
-    "busca": "milena melo"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Milene Da Silva Lima",
+    "nome": "Milene da Silva Lima",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "01/10/1990",
+    "dataNascimento": "01/10/1990",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Turma Do Joubert",
-    "busca": "milene da silva lima"
+    "equipe": "Turma do Joubert",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Mirian Fernandes Cunha",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "27/03/1999",
+    "dataNascimento": "27/03/1999",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "mirian fernandes cunha"
+    "equipe": "GOGO RUNNERS",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Murilo De Castro Souza",
+    "nome": "Murilo de Castro Souza",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "03/03/1998",
+    "dataNascimento": "03/03/1998",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "murilo de castro souza"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Murilo Vasconcelos Nery",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Masculino",
-    "nascimento": "12/02/2022",
+    "dataNascimento": "12/02/2022",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runnrs",
-    "busca": "murilo vasconcelos nery"
+    "equipe": "GOGO RUNNRS",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Nágila Kamille Marques Caldas",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "24/06/1999",
+    "dataNascimento": "24/06/1999",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Elite Run",
-    "busca": "nagila kamille marques caldas"
+    "equipe": "ELITE RUN",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Natalha Oliveira Do Nascimento",
+    "nome": "Natalha Oliveira do Nascimento",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "26/10/2002",
+    "dataNascimento": "26/10/2002",
     "camisa": "GG",
-    "representaEquipe": "Sim",
     "equipe": "Ibifit",
-    "busca": "natalha oliveira do nascimento"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Náthally Vitória Albuquerque Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "27/02/2008",
+    "dataNascimento": "27/02/2008",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "nathally vitoria albuquerque silva"
+    "equipe": "GOGO RUNNERS",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Neurilene De Souza Araújo",
+    "nome": "Neurilene de Souza Araújo",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "05/03/1981",
+    "dataNascimento": "05/03/1981",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "neurilene de souza araujo"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Océlia Ferreira Da Silva",
+    "nome": "Océlia Ferreira da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "28/01/1998",
+    "dataNascimento": "28/01/1998",
     "camisa": "PP",
-    "representaEquipe": "Sim",
     "equipe": "Gogó Runners",
-    "busca": "ocelia ferreira da silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Oziel De Souza Leite",
+    "nome": "Oziel de Souza Leite",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "03/07/1987",
+    "dataNascimento": "03/07/1987",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Jp",
-    "busca": "oziel de souza leite"
+    "equipe": "JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Patricia Arraes Sousa De Sousa",
+    "nome": "Patricia Arraes Sousa de Sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "30/11/1986",
+    "dataNascimento": "30/11/1986",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "patricia arraes sousa de sousa"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Paulo Henrique Abreu Barbosa",
+    "nome": "PAULO HENRIQUE ABREU BARBOSA",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "19/09/1996",
+    "dataNascimento": "19/09/1996",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "paulo henrique abreu barbosa"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Pedro Henrique Alves Carvalho",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "24/12/2005",
+    "dataNascimento": "24/12/2005",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runners",
-    "busca": "pedro henrique alves carvalho"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Pedro Luca Carvalho Da Silva",
+    "nome": "Pedro Luca Carvalho da Silva",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Masculino",
-    "nascimento": "12/06/2017",
+    "dataNascimento": "12/06/2017",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runneres",
-    "busca": "pedro luca carvalho da silva"
+    "equipe": "Gogo runneres",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Phyetro Assunção Da Silva",
+    "nome": "Phyetro Assunção da Silva",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Feminino",
-    "nascimento": "25/07/2012",
+    "dataNascimento": "25/07/2012",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "phyetro assuncao da silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Pietro Gabriel De Paula",
+    "nome": "Pietro gabriel de paula",
     "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
     "sexo": "Masculino",
-    "nascimento": "03/08/2011",
+    "dataNascimento": "03/08/2011",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "pietro gabriel de paula"
+    "equipe": "Gogo runners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Rafael Luz Pereira",
+    "nome": "Priscila Fonseca Ribeiro",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
-    "sexo": "Masculino",
-    "nascimento": "05/10/1999",
-    "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Gogórunners",
-    "busca": "rafael luz pereira"
-  },
-  {
-    "nome": "Rafaela Castro Da Conceição",
-    "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "08/05/2000",
+    "dataNascimento": "06/11/1988",
+    "camisa": "P",
+    "equipe": "Priscila Fonseca Ribeiro",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Rafael luz Pereira",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Masculino",
+    "dataNascimento": "05/10/1999",
+    "camisa": "M",
+    "equipe": "Gogórunners",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Rafaela Castro da Conceição",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "08/05/2000",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "rafaela castro da conceicao"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Raimunda Ferreira Lima Oliveira",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "31/08/1984",
+    "dataNascimento": "31/08/1984",
     "camisa": "P",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Perfo",
-    "busca": "raimunda ferreira lima oliveira"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Raimunda Rocha Soares",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "08/01/1988",
+    "dataNascimento": "08/01/1988",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Run Delas",
-    "busca": "raimunda rocha soares"
+    "equipe": "Run delas",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Raymara S Lima",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "08/11/1996",
+    "dataNascimento": "08/11/1996",
     "camisa": "GG",
-    "representaEquipe": "Sim",
-    "equipe": "Jp",
-    "busca": "raymara s lima"
+    "equipe": "JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Rhaisa Luthiane Da Silva Santos",
+    "nome": "Rhaisa Luthiane da Silva Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "01/12/1991",
+    "dataNascimento": "01/12/1991",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Corredores De São José",
-    "busca": "rhaisa luthiane da silva santos"
+    "equipe": "Corredores de São José",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Ricardo Roger Santos Do Nascimento",
+    "nome": "Ricardo roger Santos do Nascimento",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "23/05/1995",
+    "dataNascimento": "23/05/1995",
     "camisa": "GG",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "ricardo roger santos do nascimento"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Rodrigo Braga Neves",
+    "nome": "RODRIGO BRAGA NEVES",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "13/06/2000",
+    "dataNascimento": "13/06/2000",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Gogo Runners",
-    "busca": "rodrigo braga neves"
+    "equipe": "GOGO RUNNERS",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Rodrigo Da Silva Alves",
+    "nome": "Rodrigo da Silva Alves",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "23/02/1991",
+    "dataNascimento": "23/02/1991",
     "camisa": "XG",
-    "representaEquipe": "Sim",
-    "equipe": "Gogórunners",
-    "busca": "rodrigo da silva alves"
+    "equipe": "GogóRunners",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Rodrigo Da Silva Dias",
+    "nome": "Rodrigo da silva Dias",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "10/25/0095",
+    "dataNascimento": "10/25/0095",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogorunners",
-    "busca": "rodrigo da silva dias"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Rogério Machado Dos Santos",
+    "nome": "Rogério Machado dos Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "13/05/1987",
+    "dataNascimento": "13/05/1987",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Estação Fitness",
-    "busca": "rogerio machado dos santos"
+    "equipe": "Estação fitness",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Romário Lucas Da Silva",
+    "nome": "Romário Lucas da silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "21/09/1991",
+    "dataNascimento": "21/09/1991",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Corre Rio",
-    "busca": "romario lucas da silva"
+    "equipe": "Corre rio",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Roreeon Araujo Santiago",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "20/08/2001",
+    "dataNascimento": "20/08/2001",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Corre Rio",
-    "busca": "roreeon araujo santiago"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Rosaly Da Silva Lima",
+    "nome": "Rosaly da Silva Lima",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "22/12/1985",
+    "dataNascimento": "22/12/1985",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Rum Delas",
-    "busca": "rosaly da silva lima"
+    "equipe": "Rum delas",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Rubia Carvalho Menezes Souza",
+    "nome": "Rubia Carvalho Menezes souza",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "29/07/1990",
+    "dataNascimento": "29/07/1990",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Jp",
-    "busca": "rubia carvalho menezes souza"
+    "equipe": "JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Rudney Souza Alves",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "02/05/1985",
+    "dataNascimento": "02/05/1985",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "One Run",
-    "busca": "rudney souza alves"
+    "equipe": "One run",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Ryan Pablo Da Silva Saturno",
+    "nome": "Ruth Vieira santos Fernandes",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
-    "sexo": "Masculino",
-    "nascimento": "17/01/2010",
-    "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Não informado",
-    "busca": "ryan pablo da silva saturno"
-  },
-  {
-    "nome": "Sabrina Aires Da Silva",
-    "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "20/02/1992",
+    "dataNascimento": "16/09/1998",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "sabrina aires da silva"
+    "equipe": "Ruth Vieira santos Fernandes",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Ryan pablo da Silva saturno",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Masculino",
+    "dataNascimento": "17/01/2010",
+    "camisa": "M",
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Sabrina Aires da Silva",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "20/02/1992",
+    "camisa": "P",
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Sabrina Freitas Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "08/05/2001",
+    "dataNascimento": "08/05/2001",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "sabrina freitas silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Sabrina Sousa De Paula",
+    "nome": "Sabrina Sousa de Paula",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "03/10/2003",
+    "dataNascimento": "03/10/2003",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "sabrina sousa de paula"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Salatiel Barbosa Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "10/06/1991",
+    "dataNascimento": "10/06/1991",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "salatiel barbosa silva"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Samuel Costa Lima",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "17/01/1999",
+    "dataNascimento": "17/01/1999",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "samuel costa lima"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Sara Vitória Silva Rocha",
+    "nome": "Sara vitória Silva Rocha",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "11/08/2000",
+    "dataNascimento": "11/08/2000",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "sara vitoria silva rocha"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Sérgio Dos Reis Soares",
+    "nome": "Sérgio dos Reis Soares",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "01/09/1977",
+    "dataNascimento": "01/09/1977",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "sergio dos reis soares"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Silvio Rayllan Da Costa Ferreira",
+    "nome": "Silvio Rayllan da costa ferreira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "05/01/2007",
+    "dataNascimento": "05/01/2007",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Gogorunner",
-    "busca": "silvio rayllan da costa ferreira"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Sirlene Ribeiro Da Costa",
-    "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
-    "sexo": "Feminino",
-    "nascimento": "30/07/1986",
-    "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu_Do_Para",
-    "busca": "sirlene ribeiro da costa"
-  },
-  {
-    "nome": "Sophia Da Silva Santos",
-    "categoria": "Sub-17 - 2KM - até 17 anos",
-    "grupo": "Kids 17 ANOS 2KM",
-    "sexo": "Feminino",
-    "nascimento": "13/08/2012",
-    "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Gogórunners",
-    "busca": "sophia da silva santos"
-  },
-  {
-    "nome": "Stefany Adelino De Jesus",
+    "nome": "Simone Carneiro Matos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "15/08/1999",
+    "dataNascimento": "06/09/1996",
+    "camisa": "M",
+    "equipe": "Simone Carneiro Matos",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Sirlene Ribeiro da costa",
+    "categoria": "Master A - 5KM - 40 a 49 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "30/07/1986",
+    "camisa": "P",
+    "equipe": "Dudu_do_para",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Sophia da Silva Santos",
+    "categoria": "Sub-17 - 2KM - até 17 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "13/08/2012",
+    "camisa": "P",
+    "equipe": "GogóRunners",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Stefany Adelino de Jesus",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "15/08/1999",
     "camisa": "GG",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "stefany adelino de jesus"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Stefany Rodrigues",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "01/04/2002",
+    "dataNascimento": "01/04/2002",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Corre Água Azul",
-    "busca": "stefany rodrigues"
+    "equipe": "Corre água azul",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Suzana Vieira De Sousa",
+    "nome": "Stephany Kerly Morais Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "15/06/1987",
+    "dataNascimento": "04/11/1996",
     "camisa": "P",
-    "representaEquipe": "Sim",
+    "equipe": "Stephany Kerly Morais Silva",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "SUZANA VIEIRA DE SOUSA",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "15/06/1987",
+    "camisa": "P",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "suzana vieira de sousa"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Tânia Rodrigues Santana",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "15/06/1980",
+    "dataNascimento": "15/06/1980",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "tania rodrigues santana"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Tatiane Da Silva Santos",
+    "nome": "Tatiane da Silva Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "27/05/1997",
+    "dataNascimento": "27/05/1997",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu Do Pará",
-    "busca": "tatiane da silva santos"
+    "equipe": "Dudu do Pará",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Tauã Ribeiro De Oliveira",
+    "nome": "Tauã Ribeiro de Oliveira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "02/08/2003",
+    "dataNascimento": "02/08/2003",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "@Gogórunners",
-    "busca": "taua ribeiro de oliveira"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Tenório",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "20/10/2001",
+    "dataNascimento": "20/10/2001",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "One Run",
-    "busca": "tenorio"
+    "equipe": "One run",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Thainara Oliveira De Sousa",
+    "nome": "Thainara Oliveira de Sousa",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "09/03/1996",
+    "dataNascimento": "09/03/1996",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Estação Fitness",
-    "busca": "thainara oliveira de sousa"
+    "equipe": "Estação fitness",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Thales Teodoro Portela Quirino",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "24/04/2006",
+    "dataNascimento": "24/04/2006",
     "camisa": "GG",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "thales teodoro portela quirino"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Thauane De Oliveira Lima",
+    "nome": "Thauane de Oliveira lima",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "13/06/1997",
+    "dataNascimento": "13/06/1997",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Joubert Jp",
-    "busca": "thauane de oliveira lima"
+    "equipe": "Joubert JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Thaynara Lima De Souza",
+    "nome": "Thauany da Conceição Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "21/10/1994",
+    "dataNascimento": "11/07/2007",
     "camisa": "P",
-    "representaEquipe": "Sim",
+    "equipe": "Thauany da Conceição Santos",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Thaynara Lima de Souza",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Feminino",
+    "dataNascimento": "21/10/1994",
+    "camisa": "P",
     "equipe": "Performace",
-    "busca": "thaynara lima de souza"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Thays Oliveira",
+    "nome": "thays oliveira",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "08/09/2026",
+    "dataNascimento": "08/09/2026",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Bw",
-    "busca": "thays oliveira"
+    "equipe": "bw",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Tiago Silva De Andrade",
+    "nome": "thays oliveira freitas",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
+    "sexo": "Feminino",
+    "dataNascimento": "04/09/1999",
+    "camisa": "M",
+    "equipe": "thays oliveira freitas",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Tiago Silva de Andrade",
+    "categoria": "Elite 5KM - 18 a 39 anos",
     "sexo": "Masculino",
-    "nascimento": "15/05/1987",
+    "dataNascimento": "15/05/1987",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Gogórunners",
-    "busca": "tiago silva de andrade"
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "Tyago Neres da Rocha",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Masculino",
+    "dataNascimento": "19/06/1996",
+    "camisa": "P",
+    "equipe": "Tyago Neres da Rocha",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Uislei Carvalho",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "04/03/1993",
+    "dataNascimento": "04/03/1993",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Gogórunners",
-    "busca": "uislei carvalho"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Valdinei Ferro De Souza",
+    "nome": "Valdinei Ferro de Souza",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "19/01/1991",
+    "dataNascimento": "19/01/1991",
     "camisa": "G",
-    "representaEquipe": "Sim",
-    "equipe": "Dudu Do Para",
-    "busca": "valdinei ferro de souza"
+    "equipe": "Dudu do Para",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Valdirene Da Silva Oliveira",
+    "nome": "Valdirene da Silva Oliveira",
     "categoria": "Master B - 5KM - 50 anos acima",
-    "grupo": "Master 50+",
     "sexo": "Feminino",
-    "nascimento": "15/08/1970",
+    "dataNascimento": "15/08/1970",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "valdirene da silva oliveira"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Valdoanio Guimaraes De Almeida",
+    "nome": "VALDOANIO GUIMARAES DE ALMEIDA",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "16/06/1983",
+    "dataNascimento": "16/06/1983",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "One Run",
-    "busca": "valdoanio guimaraes de almeida"
+    "equipe": "ONE RUN",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Valter De Sousa Costa Maia Queiroz",
+    "nome": "VALTER DE SOUSA COSTA MAIA QUEIROZ",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "31/05/1993",
+    "dataNascimento": "31/05/1993",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "valter de sousa costa maia queiroz"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Vanda Da Silva Freitas",
+    "nome": "Vanda da Silva Freitas",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "16/08/1981",
+    "dataNascimento": "16/08/1981",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "vanda da silva freitas"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Vania Hamann",
+    "nome": "Vania hamann",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Feminino",
-    "nascimento": "07/02/1984",
+    "dataNascimento": "07/02/1984",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "vania hamann"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Verônica Da Silva Rocha",
+    "nome": "Verônica da Silva Rocha",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "02/06/1999",
+    "dataNascimento": "02/06/1999",
     "camisa": "PP",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "veronica da silva rocha"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Vítor Lopes Dos Santos",
+    "nome": "Vítor Lopes dos Santos",
     "categoria": "Sub-13 - 1KM - até 13 anos",
-    "grupo": "Kids 13 ANOS 1KM",
     "sexo": "Masculino",
-    "nascimento": "11/01/2013",
+    "dataNascimento": "11/01/2013",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "vitor lopes dos santos"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Vitor Miguel Bezerra Gomes",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "22/04/2003",
+    "dataNascimento": "22/04/2003",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogórunnners",
-    "busca": "vitor miguel bezerra gomes"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Warleys De Oliveira Júnior",
+    "nome": "Warleys de Oliveira Júnior",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "23/09/1998",
+    "dataNascimento": "23/09/1998",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Jobert",
-    "busca": "warleys de oliveira junior"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Wellington De Oliveira Gomes",
+    "nome": "Wellington de Oliveira Gomes",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "11/04/2001",
+    "dataNascimento": "11/04/2001",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogorunners",
-    "busca": "wellington de oliveira gomes"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Weslaine Maria Pereira De Carvalho",
+    "nome": "Weslaine Maria Pereira de Carvalho",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "08/09/1993",
+    "dataNascimento": "08/09/1993",
     "camisa": "P",
-    "representaEquipe": "Sim",
-    "equipe": "Rose Training Rum Delas",
-    "busca": "weslaine maria pereira de carvalho"
+    "equipe": "Rose Training Rum delas",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Weslane Conceição Do Nascimento",
+    "nome": "Weslane Conceição do Nascimento",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "03/09/1995",
+    "dataNascimento": "03/09/1995",
     "camisa": "P",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "weslane conceicao do nascimento"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Weslene De Jesus Araújo",
+    "nome": "Weslene de Jesus Araújo",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "23/06/1998",
+    "dataNascimento": "23/06/1998",
     "camisa": "PP",
-    "representaEquipe": "Sim",
-    "equipe": "Equipe Jp",
-    "busca": "weslene de jesus araujo"
+    "equipe": "Equipe JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Wesley Gonçalves Soares",
+    "nome": "Wesley Gonçalves soares",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "28/11/1993",
+    "dataNascimento": "28/11/1993",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "wesley goncalves soares"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Wesley Macedo",
+    "nome": "WESLEY MACEDO",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "26/11/1989",
+    "dataNascimento": "26/11/1989",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "wesley macedo"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Wesley Santos",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "16/01/2002",
+    "dataNascimento": "16/01/2002",
     "camisa": "G",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "wesley santos"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Wesley Vagner Teixeira",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "27/01/1986",
+    "dataNascimento": "27/01/1986",
     "camisa": "M",
-    "representaEquipe": "Não",
-    "equipe": "Não informado",
-    "busca": "wesley vagner teixeira"
+    "equipe": "",
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Weybe Dos Santos Ferreira",
+    "nome": "Weybe dos Santos Ferreira",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "26/06/1992",
+    "dataNascimento": "26/06/1992",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Gogo Runners",
-    "busca": "weybe dos santos ferreira"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Wigvan De Lima Santana",
+    "nome": "Wigvan de Lima Santana",
     "categoria": "Master A - 5KM - 40 a 49 anos",
-    "grupo": "Master 40-49",
     "sexo": "Masculino",
-    "nascimento": "26/02/1985",
+    "dataNascimento": "26/02/1985",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Studio Jump Alta Performance",
-    "busca": "wigvan de lima santana"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
-    "nome": "Wilker Freitas De Moraes",
+    "nome": "Wilker Freitas de Moraes",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "27/01/1997",
+    "dataNascimento": "27/01/1997",
     "camisa": "G",
-    "representaEquipe": "Sim",
     "equipe": "Dudu_Do_Pará",
-    "busca": "wilker freitas de moraes"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Wliedson Gomes Da Silva",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Masculino",
-    "nascimento": "12/07/2002",
+    "dataNascimento": "12/07/2002",
     "camisa": "M",
-    "representaEquipe": "Sim",
     "equipe": "Gogórunners",
-    "busca": "wliedson gomes da silva"
+    "status": "INSCRIÇÃO CONFIRMADA"
   },
   {
     "nome": "Yara Kallinny Silva Marques",
     "categoria": "Elite 5KM - 18 a 39 anos",
-    "grupo": "Elite",
     "sexo": "Feminino",
-    "nascimento": "17/10/1998",
+    "dataNascimento": "17/10/1998",
     "camisa": "M",
-    "representaEquipe": "Sim",
-    "equipe": "Jp",
-    "busca": "yara kallinny silva marques"
+    "equipe": "JP",
+    "status": "INSCRIÇÃO CONFIRMADA"
+  },
+  {
+    "nome": "ZAYON GOMES QUERES",
+    "categoria": "Elite 5KM - 18 a 39 anos",
+    "sexo": "Masculino",
+    "dataNascimento": "12/08/2004",
+    "camisa": "P",
+    "equipe": "ZAYON GOMES QUERES",
+    "status": "INSCRIÇÃO CONFIRMADA"
   }
-];
+]
